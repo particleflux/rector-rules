@@ -9,7 +9,7 @@ Note that you need to update your project dependencies on your own.
 
 Should you use codeception yii module for testing sent mails
 (`grabLastSentEmail` etc), you also need to override the mailer message class
-for your test config. Otherwise, the yii2 module troies to use the
+for your test config. Otherwise, the codeception yii2 module tries to use the
 `yii\swiftmailer\Message`.
 
 ```php
